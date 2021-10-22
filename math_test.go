@@ -25,7 +25,7 @@ func TestMul(t *testing.T) {
 }
 
 func TestDiv(t *testing.T) {
-  total := Sum(15, 15)
+  total := Div(15, 15)
   if total != 1 {
     t.Errorf("Result must be 1 not %d", total)
   }
